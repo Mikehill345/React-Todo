@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+.todo-list{
+    text-align: center;
+}
+.item{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid red;
+    margin:4%;
+}
+.itemcompleted{
+    text-decoration: line-through;
+    border: 1px solid red;
+    background:blue;
+    margin:4%;
+}
